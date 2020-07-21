@@ -83,7 +83,7 @@
                   составляют более одного миллиона рублей. Если меньше, то вы
                   всё равно сможете получить скидку, но уже в
                   <span>размере 3%</span> от стоимости товара на АЗС не
-                  зависимо, то того, какое топливо заправляют ваши сотрудники.
+                  зависимо, от то того, какое топливо заправляют ваши сотрудники.
                 </p>
               </div>
               <div class="item-3">
@@ -130,21 +130,23 @@
             <div class="form__box">
               <label for=""
                 >Ваше имя:
-                <input autocomplete="name" required type="name" placeholder="Иван Иванов" /></label
+                <input autocomplete="name" name="name" required type="name" placeholder="Иван Иванов" /></label
               ><label for=""
                 >Телефон:
-                <input pattern="+7" autocomplete="tel"
+                <input autocomplete="tel"
+                name="tel"
                   type="tel"
                   required
                   placeholder="+7 ___ ___ __ __" /></label
               ><label for=""
                 >Название организации:
                 <input
+                name="name__co"
                   type="text"
                   placeholder="ИП 3-й автобусный парк" /></label
               ><label for=""
                 >Удобное время для звонка:
-                <input type="text" placeholder="10:00 - 18:00"
+                <input name="time" type="text" placeholder="10:00 - 18:00"
               /></label>
               <input class="form-btn" type="submit" />
             </div>
@@ -166,6 +168,7 @@
     </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="js/slick.min.js"></script>
+<script src="contactform.js"></script>
     <script src="js/main.js"></script>
   </body>
 </html>
