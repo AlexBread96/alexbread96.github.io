@@ -103,13 +103,9 @@
     line-height: 47px;
     letter-spacing: 0.1em;
     text-transform: uppercase;
-    margin-bottom: 100px;
+    margin-bottom: 25px;
   }
-  .form__title::before {
-    width: 150px;
-    height: 3px;
-    right: 200px;
-  }
+
   .form__box {
     display: block;
     position: relative;
@@ -166,7 +162,7 @@
     line-height: 10px;
   }
   .slick-track {
-/*     height: 60vh; */
+    height: 100vh;
   }
 }
 
@@ -178,7 +174,7 @@
     width: 165px;
     height: 111px;
   }
- 
+
   .icons_head,
   .header__btn {
     display: none;
@@ -235,7 +231,7 @@
   }
 
   .title {
-    font-size: 28px;
+    font-size: 36px;
     line-height: 47px;
     margin-top: 0px;
     letter-spacing: 0.1em;
@@ -271,7 +267,7 @@
   }
 
   .container {
-    padding: 0 5px;
+    padding: 0 15px;
   }
   .slick-dots button {
     width: 60px;
@@ -356,14 +352,12 @@
     margin: 30px 0;
     width: 30px;
   }
-  .footer{
+  .footer {
     height: 70px;
   }
   .footer__title {
-   
     font-size: 4px;
     line-height: 5px;
-
   }
   .ico_foot img {
     width: 4px;
@@ -373,6 +367,6 @@
     position: relative;
     /* margin: 20px 0; */
     font-size: 4px;
-    line-height: 5px;;
+    line-height: 5px;
   }
 }
