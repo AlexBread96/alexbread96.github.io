@@ -24,6 +24,7 @@ body {
 .icons_head {
   margin: 0 auto;
 }
+
 .icons_head img {
   width: 47px;
   height: 47px;
@@ -31,6 +32,7 @@ body {
   border-radius: 23.5px;
   box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.5);
 }
+
 .header__btn a {
   float: right;
   line-height: 10px;
@@ -50,6 +52,13 @@ body {
   box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.5);
   display: block;
 }
+
+.header__btn a:active {
+  transform: scale(0.9);
+  background-color: #d10202;
+  color: rgb(255, 174, 0);
+}
+
 .main {
   background-image: url(../img/fon.png);
   background-repeat: no-repeat;
@@ -62,9 +71,9 @@ body {
   backdrop-filter: blur(5px);
   background-color: rgba(255, 255, 255, 0.6);
 }
-.main__inner {
+/* .main__inner {
   padding-top: 25px;
-}
+} */
 .title {
   display: flex;
   margin-top: 25px;
@@ -146,6 +155,11 @@ body {
   outline: none;
   box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.5);
 }
+.item-btn a:active {
+  transform: scale(0.7);
+  background-color: #d10202;
+  color: rgb(255, 174, 0);
+}
 .main {
   height: 100%;
 }
@@ -213,6 +227,11 @@ body {
   margin-top: 50px;
   background: #e81415;
   box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.5);
+}
+.form-btn:active {
+  transform: scale(0.9);
+  background-color: #d10202;
+  color: rgb(255, 174, 0);
 }
 .footer {
   background-color: #e81415;
@@ -311,4 +330,9 @@ body {
 ::-webkit-scrollbar-thumb {
   background-color: #e81415;
   border-radius: 15px;
+}
+
+.tap {
+  transform: scale(0.7);
+  opacity: 0.9;
 }
