@@ -22,7 +22,7 @@ h2 .mask-num {
 }
 
 .container {
-  width: 800px;
+  max-width: 800px;
   margin: 0 auto;
   padding: 0 15px;
 }
@@ -189,4 +189,17 @@ input[type="checkbox"]:not(:checked) + span::after {
   left: 4px;
   top: calc(50% - 6px);
   background-color: #7d25a9;
+}
+
+@media (max-width: 600px) {
+  .header .container {
+    display: block;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .header .container .form {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
 }
